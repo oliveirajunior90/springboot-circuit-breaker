@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:resilience
+
+  external:
+    serviceA:
+      url: http://localhost:8081
+    serviceB:
+      url: http://localhost:8082
