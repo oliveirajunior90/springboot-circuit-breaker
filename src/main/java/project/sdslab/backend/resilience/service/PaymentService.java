@@ -12,6 +12,7 @@ public class PaymentService {
     @Value("${spring.external.serviceA.url}")
     private String apiUrl;
 
+
     public String getApiUrl() {
         return apiUrl;
     }
